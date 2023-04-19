@@ -1,14 +1,39 @@
+@font-face {
+  font-family: "sportinggrotesqueregular";
+  src: url("../public/fonts/Sporting_Grotesque-Regular_web.ttf");
+}
+
+@font-face {
+  font-family: "Tangerine";
+  src: url("../public/fonts/TangerineRegular.ttf");
+}
+
+@font-face {
+  font-family: "Sen";
+  src: url("../public/fonts/Sen-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Syne";
+  src: url("../public/fonts/Syne-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Syne Medium";
+  src: url("../public/fonts/Syne-Medium.ttf");
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
+  --foreground-rgb: 155, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
@@ -16,12 +41,9 @@
   }
 }
 
+
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: #fff;
+ 
 }
