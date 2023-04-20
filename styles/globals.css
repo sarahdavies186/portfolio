@@ -33,6 +33,11 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+.hero-section {
+  height: 100vh;
+  width: 100vw;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -40,8 +45,4 @@
     --background-end-rgb: 0, 0, 0;
   }
 
-  .hero-section {
-    height: 100vh;
-    width: 100vw;
-  }
 }

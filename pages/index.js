@@ -1,5 +1,6 @@
 import Head from "next/head";
 import HeroSection from "../components/HeroSection";
+import Work from "../components/Work";
 
 export default function Home() {
   return (
@@ -12,8 +13,8 @@ export default function Home() {
         <section>
           <HeroSection />
         </section>
-        <section className="flex bg-nude">
-          <h1>hello</h1>
+        <section className="flex justify-center bg-white pt-20">
+          <Work />
         </section>
       </main>
     </div>
