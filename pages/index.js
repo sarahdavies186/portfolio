@@ -2,6 +2,7 @@ import Head from "next/head";
 import HeroSection from "../components/HeroSection";
 import Work from "../components/Work";
 import AboutMe from "../components/AboutMe";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -19,6 +20,9 @@ export default function Home() {
         </section>
         <section className="flex justify-center bg-white pt-20 pb-32">
           <Work />
+        </section>
+        <section className="flex justify-center bg-white pt-20 pb-12">
+          <Footer />
         </section>
       </main>
     </div>

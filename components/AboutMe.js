@@ -19,7 +19,8 @@ export default function AboutMe() {
             and CSS. I am based in London and open to opportunites worldwide.
           </p>
           <button className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border mt-2">Github</button>
-          <button className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border m-2">Email me</button>
+          <button className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border ml-2">CV</button>
+          <button className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border m-2">Contact me</button>
         </div>
       </div>
     </div>
