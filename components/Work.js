@@ -16,43 +16,46 @@ export default function Work() {
         <div className="bg-gray-100 p-4">
           <Image src={image1} alt="Image 1" width={550} height={550} />
           <h3 className="font-syne-medium text-xl pt-3">Acebook</h3>
-          <p className="font-sen">
+          <p className="font-sen mb-4">
             A social media platform created with the MERN stack
           </p>
-          <button className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border border-blue-500 mt-2">
+          <a className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border border-blue-500 mt-2"
+          href="https://github.com/sarahdavies186/acebook-water">
             Github
-          </button>
+          </a>
         </div>
         <div className="bg-gray-100 p-4">
           <Image src={image2} alt="Image 2" width={550} height={450} />
           <h3 className="font-syne-medium text-xl pt-3">Makers bnb</h3>
-          <p className="font-sen">
+          <p className="font-sen mb-4">
             A web app for users to list and rent spaces, created with Ruby and
             PostgreSQL
           </p>
-          <button className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border border-blue-500 mt-2">
+          <a className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border border-blue-500 mt-2">
             Github
-          </button>
+          </a>
         </div>
         <div className="bg-gray-100 p-4">
           <Image src={image3} alt="Image 2" width={550} height={300} />
           <h3 className="font-syne-medium text-xl pt-3">News App</h3>
-          <p className="font-sen">
+          <p className="font-sen mb-4">
             The latest news headlines straight from the Guardian API
           </p>
-          <button className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border border-blue-500 mt-2">
+          <a className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border border-blue-500 mt-2"
+          href="https://github.com/sarahdavies186/news-summary-challenge">
             Github
-          </button>
+          </a>
         </div>
         <div className="bg-gray-100 p-4">
           <Image src={image4} alt="Image 2" width={550} height={300} />
           <h3 className="font-syne-medium text-xl pt-3">Landing Page</h3>
-          <p className="font-sen">
+          <p className="font-sen mb-4">
             A creative agency landing page, designed with HTML and Bootstrap CSS
           </p>
-          <button className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border border-blue-500 mt-2">
+          <a className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border border-blue-500 mt-2"
+          href="https://github.com/sarahdavies186/Landing-Page">
             Github
-          </button>
+          </a>
         </div>
       </div>
 

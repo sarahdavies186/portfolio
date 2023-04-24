@@ -9,7 +9,7 @@ export default function AboutMe() {
 
         <div className="ml-12">
           <h3 className="font-syne-medium text-2xl pt-3">Welcome!</h3>
-          <p className="font-sen pt-2 pb-2">
+          <p className="font-sen pt-2 pb-2 mb-4">
             My name is Sarah and I am a frontend developer looking for a new
             role. With a keen eye for design and a love of creating beautiful,
             intuitive user interfaces, I am eager to contribute my skills to a
@@ -18,9 +18,11 @@ export default function AboutMe() {
             also honed my skills in frontend technologies such as React, HTML,
             and CSS. I am based in London and open to opportunites worldwide.
           </p>
-          <button className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border mt-2">Github</button>
-          <button className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border ml-2">CV</button>
-          <button className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border m-2">Contact me</button>
+          <a className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border mt-2"
+          href="https://github.com/sarahdavies186">Github</a>
+          <a className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border ml-2">CV</a>
+          <a className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border m-2"
+          href="mailto:sarahdavies186@gmail.com">Contact me</a>
         </div>
       </div>
     </div>
