@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Sarah from "../public/sarah.jpeg";
+import Sarah from "../public/Sarah.jpeg";
 
 export default function AboutMe() {
   return (
