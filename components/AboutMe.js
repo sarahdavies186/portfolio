@@ -3,7 +3,7 @@ import Sarah from "../public/sarah.jpeg";
 
 export default function AboutMe() {
   return (
-    <div className="flex ">
+    <div className="flex flex-col md:flex-row">
       <div className="flex items-center md:pl-40 md:pr-40">
         <Image src={Sarah} alt="Image 1" width={450} height={450} />
 

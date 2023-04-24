@@ -56,7 +56,7 @@ export default function Work() {
         </div>
       </div>
 
-      <h2 className="font-syne-medium text-2xl pb-10 pt-28">02. Design Projects</h2>
+      {/* <h2 className="font-syne-medium text-2xl pb-10 pt-28">02. Design Projects</h2>
       <div className="grid md:grid-cols-2 gap-20">
         <div className="bg-gray-100 p-4">
           <Image src={yoga} alt="Image 1" width={400} height={550} />
@@ -71,9 +71,9 @@ export default function Work() {
           <p className="font-sen">
             Web design created with Adobe XD
           </p>
-        </div>
+        </div> */}
         
-      </div>
+      {/* </div> */}
     </div>
   );
 }
