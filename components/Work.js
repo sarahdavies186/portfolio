@@ -9,7 +9,7 @@ import webDesign from "../public/web-design.png";
 export default function Work() {
   return (
     <div>
-      <h2 className="font-syne-medium text-2xl pb-10">
+      <h2 className="font-syne-medium text-2xl pb-10 p-4">
         01. Software Development Projects
       </h2>
       <div className="grid md:grid-cols-2 gap-20">

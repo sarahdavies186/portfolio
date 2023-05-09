@@ -8,17 +8,17 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Sarahs Portfolio</title>
+        <title>Sarah Davies</title>
         <meta></meta>
       </Head>
       <main>
         <section>
           <HeroSection />
         </section>
-        <section className="flex justify-center bg-white pt-32 pb-20">
+        <section className="flex justify-center bg-white pt-8 pb-8">
           <AboutMe />
         </section>
-        <section className="flex justify-center bg-white pt-20 pb-32">
+        <section className="flex justify-center bg-white pt-8 pb-32">
           <Work />
         </section>
         <section className="flex justify-center bg-white pt-20 pb-12">
