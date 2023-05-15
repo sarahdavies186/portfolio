@@ -12,9 +12,7 @@ export default function Home() {
         <meta></meta>
       </Head>
       <main>
-        <section>
-          <HeroSection />
-        </section>
+        <HeroSection />
         <section className="flex justify-center bg-white pt-8 pb-8">
           <AboutMe />
         </section>

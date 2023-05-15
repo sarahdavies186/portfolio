@@ -3,6 +3,7 @@ import image1 from "../public/image1.png";
 import image2 from "../public/image2.png";
 import image3 from "../public/image3.png";
 import image4 from "../public/image4.png";
+import image5 from "../public/image5.png";
 import yoga from "../public/yoga.png";
 import webDesign from "../public/web-design.png";
 
@@ -13,6 +14,17 @@ export default function Work() {
         01. Software Development Projects
       </h2>
       <div className="grid md:grid-cols-2 gap-20">
+      <div className="bg-gray-100 p-4">
+          <Image src={image5} alt="Image 1" width={550} height={550} />
+          <h3 className="font-syne-medium text-xl pt-3">Career Companion</h3>
+          <p className="font-sen mb-4">
+            A platform to assist job seekers, created with the MERN stack and OpenAI
+          </p>
+          <a className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border border-blue-500 mt-2"
+          href="https://github.com/francescoGuglielmi/career_companion">
+            Github
+          </a>
+        </div>
         <div className="bg-gray-100 p-4">
           <Image src={image1} alt="Image 1" width={550} height={550} />
           <h3 className="font-syne-medium text-xl pt-3">Acebook</h3>
@@ -31,7 +43,8 @@ export default function Work() {
             A web app for users to list and rent spaces, created with Ruby and
             PostgreSQL
           </p>
-          <a className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border border-blue-500 mt-2">
+          <a className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border border-blue-500 mt-2"
+          href="https://github.com/sarahdavies186/makersbnb">
             Github
           </a>
         </div>
@@ -59,7 +72,7 @@ export default function Work() {
         </div>
       </div>
 
-      {/* <h2 className="font-syne-medium text-2xl pb-10 pt-28">02. Design Projects</h2>
+      <h2 className="font-syne-medium text-2xl pb-10 pt-28">02. Design Projects</h2>
       <div className="grid md:grid-cols-2 gap-20">
         <div className="bg-gray-100 p-4">
           <Image src={yoga} alt="Image 1" width={400} height={550} />
@@ -74,9 +87,9 @@ export default function Work() {
           <p className="font-sen">
             Web design created with Adobe XD
           </p>
-        </div> */}
+        </div>
         
-      {/* </div> */}
+      </div>
     </div>
   );
 }
