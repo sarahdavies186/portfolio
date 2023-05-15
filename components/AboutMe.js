@@ -11,7 +11,7 @@ export default function AboutMe() {
       <div className="p-4 lg:pr-40">
         <h3 className="font-syne-medium text-2xl pt-2 pb-2 text-center lg:text-left">Welcome!</h3>
         <p className="font-sen pt-2 mb-8 text-center lg:text-left">
-          My name is Sarah and I am a frontend developer looking for a new role.
+          My name is Sarah and I am a full stack developer looking for a new role.
           With a keen eye for design and a love of creating beautiful, intuitive
           user interfaces, I am eager to contribute my skills to a dynamic and
           innovative team. I have a solid foundation in various programming
