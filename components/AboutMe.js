@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Sarah from "../public/Sarah.jpeg";
+import { Link } from 'react-scroll';
 
 export default function AboutMe() {
   return (
-    <div className="grid grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 lg:pt-20 container">
+    <div id="about" className="grid grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 lg:pt-20 container">
       <div className="flex justify-center items-center lg:pl-40">
         <Image src={Sarah} alt="Image 1" width={450} height={450} className="p-2" />
       </div>
@@ -20,21 +21,26 @@ export default function AboutMe() {
         </p>
         <div className="flex justify-center items-center lg:items-start lg:justify-start">
         <a
-          className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border"
+          className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border hover:text-green ease-in-out duration-200"
           href="https://github.com/sarahdavies186"
         >
           Github
         </a>
-        <a className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border ml-2"
+        <a className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border ml-2 hover:text-green ease-in-out duration-200"
          href="https://github.com/sarahdavies186/CV">
           CV
         </a>
-        <a
-          className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border ml-2"
-          href="mailto:sarahdavies186@gmail.com"
+        <Link
+          className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border ml-2 hover:text-green ease-in-out duration-200 cursor-pointer"
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+             
+      
         >
           Contact me
-        </a>
+        </Link>
         </div>
       </div>
     </div>

@@ -1,19 +1,42 @@
+import { Link } from 'react-scroll';
+
 export default function HeroSection() {
   return (
-    <div className="hero-section bg-[url('../public/background.png')] bg-cover bg-center">
+    <div id='hero' className="hero-section bg-[url('../public/background.png')] bg-cover bg-center">
       <nav>
         <ul className="flex justify-end space-x-12 font-sportinggrotesqueregular text-white p-6">
           <li>
-            <a href="#about">About</a>
+          <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="hover:text-black ease-in-out duration-300 cursor-pointer"
+            >
+              About
+            </Link>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+          <Link
+              to="projects"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="hover:text-black ease-in-out duration-300 cursor-pointer"
+            >
+              Projects
+            </Link>
           </li>
           <li>
-            <a href="#design">Design</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
+          <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="hover:text-black ease-in-out duration-300 cursor-pointer"
+            >
+              Contact
+            </Link>
           </li>
         </ul>
       </nav>
@@ -26,9 +49,12 @@ export default function HeroSection() {
           <br />
           based in the UK
         </h2>
-        <a className="text-white font-sportinggrotesqueregular text-1xl pt-1">
+        <Link to="about"
+              spy={true}
+              smooth={true}
+              duration={500} className="text-white hover:text-black font-sportinggrotesqueregular text-1xl pt-1 ease-in-out duration-300 cursor-pointer">
           Scroll down ↓
-        </a>
+        </Link>
       </div>
     </div>
   );

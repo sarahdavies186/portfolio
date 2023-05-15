@@ -16,7 +16,10 @@ module.exports = {
       tahiti: "#3ab7bf",
       silver: "#ecebff",
       "bubble-gum": "#ff77e9",
-      bermuda: "#78dcca",
+      pink: "#E2ABE3",
+      grey: "#F3F3F3",
+      blue: "#B6CAEF",
+      green: "#AEC696"
     },
 
     fontFamily: {
