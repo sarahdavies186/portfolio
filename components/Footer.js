@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 export default function Footer() {
   return (
-    <div className="flex flex-col ">
+    <div className="container flex flex-col py-4">
       <div className="text-center">
         <Link
           to="hero"

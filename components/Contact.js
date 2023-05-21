@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <div
       id="contact"
-      className="container flex flex-col"
+      className="container flex flex-col pb-20"
     >
       <h3 className="font-syne-medium text-3xl pb-2 text-center">
        Contact me:

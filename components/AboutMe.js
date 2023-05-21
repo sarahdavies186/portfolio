@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 
 export default function AboutMe() {
   return (
-    <div id="about" className="grid grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 lg:pt-20 container">
+    <div id="about" className="grid grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 py-20 px-4 container">
       <div className="flex justify-center items-center lg:pl-40">
         <Image src={Sarah} alt="Image 1" width={450} height={450} className="p-2" />
       </div>

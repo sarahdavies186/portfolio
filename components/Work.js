@@ -9,7 +9,7 @@ import webDesign from "../public/web-design.png";
 
 export default function Work() {
   return (
-    <div>
+    <div className="container px-4 pb-20">
       <h2 id="projects" className="font-syne-medium text-2xl pb-10 p-4">
         01. Software Development Projects
       </h2>
