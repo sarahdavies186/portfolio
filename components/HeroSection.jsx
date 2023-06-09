@@ -1,12 +1,15 @@
-import { Link } from 'react-scroll';
+import { Link } from "react-scroll";
 
 export default function HeroSection() {
   return (
-    <div id='hero' className="hero-section bg-[url('../public/background.png')] bg-cover bg-center">
+    <div
+      id="hero"
+      className="hero-section bg-[url('../public/background.png')] bg-cover bg-center"
+    >
       <nav>
         <ul className="flex justify-end space-x-12 font-sportinggrotesqueregular text-white p-6">
           <li>
-          <Link
+            <Link
               to="about"
               spy={true}
               smooth={true}
@@ -17,7 +20,7 @@ export default function HeroSection() {
             </Link>
           </li>
           <li>
-          <Link
+            <Link
               to="projects"
               spy={true}
               smooth={true}
@@ -28,7 +31,7 @@ export default function HeroSection() {
             </Link>
           </li>
           <li>
-          <Link
+            <Link
               to="contact"
               spy={true}
               smooth={true}
@@ -40,7 +43,7 @@ export default function HeroSection() {
           </li>
         </ul>
       </nav>
-      <div className="flex flex-col pt-48 md:pt-42 pl-5 md:pl-28 container">
+      <div className="flex flex-col pt-48 md:pt-36 pl-5 md:pl-28 container">
         <h1 className="text-white font-tangerine text-8xl md:text-9xl">
           Sarah Davies
         </h1>
@@ -49,10 +52,13 @@ export default function HeroSection() {
           <br />
           based in the UK
         </h2>
-        <Link to="about"
-              spy={true}
-              smooth={true}
-              duration={500} className="text-white hover:text-black font-sportinggrotesqueregular text-1xl pt-1 ease-in-out duration-300 cursor-pointer">
+        <Link
+          to="about"
+          spy={true}
+          smooth={true}
+          duration={500}
+          className="text-white hover:text-black font-sportinggrotesqueregular text-1xl pt-1 ease-in-out duration-300 cursor-pointer"
+        >
           Scroll down ↓
         </Link>
       </div>
