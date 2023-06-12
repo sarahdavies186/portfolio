@@ -48,9 +48,7 @@ export default function HeroSection() {
           Sarah Davies
         </h1>
         <h2 className="text-white font-syne-medium text-5xl pb-10">
-          Software developer and designer
-          <br />
-          based in the UK
+          Software developer based in the UK
         </h2>
         <Link
           to="about"
