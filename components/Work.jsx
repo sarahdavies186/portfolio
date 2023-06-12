@@ -14,15 +14,26 @@ export default function Work() {
         01. Software Development Projects
       </h2>
       <div className="grid md:grid-cols-2 gap-20">
-      <div className="bg-gray-100 p-4">
+        <div className="bg-gray-100 p-4">
           <Image src={image5} alt="Image 1" width={550} height={550} />
           <h3 className="font-syne-medium text-xl pt-3">Career Companion</h3>
           <p className="font-sen mb-4">
-            A platform to assist job seekers, created with the MERN stack and OpenAI
+            A platform to assist job seekers, created with the MERN stack and
+            OpenAI
           </p>
-          <a className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border border-blue-500 mt-2  hover:text-blue ease-in-out duration-200"
-          href="https://github.com/francescoGuglielmi/career_companion">
+          <a
+            className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border border-blue-500 mt-2  hover:text-blue ease-in-out duration-200"
+            href="https://github.com/francescoGuglielmi/career_companion"
+            target="_blank"
+          >
             Github
+          </a>
+          <a
+            className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border border-blue-500 mt-2 ml-2 hover:text-blue ease-in-out duration-200"
+            href="https://career-companion-39n4.onrender.com/"
+            target="_blank"
+          >
+            Demo
           </a>
         </div>
         <div className="bg-gray-100 p-4">
@@ -31,8 +42,11 @@ export default function Work() {
           <p className="font-sen mb-4">
             A social media platform created with the MERN stack
           </p>
-          <a className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border border-blue-500 mt-2 hover:text-blue ease-in-out duration-200"
-          href="https://github.com/sarahdavies186/acebook-water">
+          <a
+            className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border border-blue-500 mt-2 hover:text-blue ease-in-out duration-200"
+            href="https://github.com/sarahdavies186/acebook-water"
+            target="_blank"
+          >
             Github
           </a>
         </div>
@@ -43,8 +57,11 @@ export default function Work() {
             A web app for users to list and rent spaces, created with Ruby and
             PostgreSQL
           </p>
-          <a className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border border-blue-500 mt-2 hover:text-blue ease-in-out duration-200"
-          href="https://github.com/sarahdavies186/makersbnb">
+          <a
+            className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border border-blue-500 mt-2 hover:text-blue ease-in-out duration-200"
+            href="https://github.com/sarahdavies186/makersbnb"
+            target="_blank"
+          >
             Github
           </a>
         </div>
@@ -54,8 +71,11 @@ export default function Work() {
           <p className="font-sen mb-4">
             The latest news headlines straight from the Guardian API
           </p>
-          <a className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border border-blue-500 mt-2 hover:text-blue ease-in-out duration-200"
-          href="https://github.com/sarahdavies186/news-summary-challenge">
+          <a
+            className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border border-blue-500 mt-2 hover:text-blue ease-in-out duration-200"
+            href="https://github.com/sarahdavies186/news-summary-challenge"
+            target="_blank"
+          >
             Github
           </a>
         </div>
@@ -65,9 +85,19 @@ export default function Work() {
           <p className="font-sen mb-4">
             A creative agency landing page, designed with HTML and Bootstrap CSS
           </p>
-          <a className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border border-blue-500 mt-2 hover:text-blue ease-in-out duration-200"
-          href="https://github.com/sarahdavies186/Landing-Page">
+          <a
+            className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border border-blue-500 mt-2 hover:text-blue ease-in-out duration-200"
+            href="https://github.com/sarahdavies186/Landing-Page"
+            target="_blank"
+          >
             Github
+          </a>
+          <a
+            className="font-sportinggrotesqueregular bg-transparent py-2 px-4 border border-blue-500 mt-2 ml-2 hover:text-blue ease-in-out duration-200"
+            href="https://voluble-parfait-c5c0cc.netlify.app/"
+            target="_blank"
+          >
+            Demo
           </a>
         </div>
       </div>
